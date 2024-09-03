@@ -14,7 +14,7 @@ function App() {
     comments: ''
   });
 
-  // Function to update form data
+
   const handleInputChange = (input) => (e) => {
     setFormData({
       ...formData,
@@ -22,10 +22,10 @@ function App() {
     });
   };
 
-  // Handle form submission
+
   const handleSubmit = () => {
     console.log('Form Data Submitted:', formData);
-    // Handle form submission, e.g., sending data to a server
+   
   };
 
   return (
